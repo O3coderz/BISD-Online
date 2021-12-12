@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+label #BISD-logo {
+    padding: 0 170px;
+    height: 70px;
+    margin-top: 6px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    
+}
+.language {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+nav ul li a {
+    color: #333;
+    padding: 7px 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #fbb545;
+    transition: 0.5s;
+
+}
+
+nav #icon {
+    color: #333;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*menu bar end*/
+
+/* section started */
+
+.background {
+    background-image: url(https://bisdonline.brac.net/img/home-slider/home_slider_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+}
+
+.background h1 {
+    color: #fff;
+    font-size: 50px;
+    display: inline-block;
+    margin: 220px 0 0 130px ;
+    padding: 20px;
+    font-weight: bold;
+ } 
+
+ .background span {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: 10px 130px ;
+    padding: 20px;
+    font-weight: 500;
+}
+.call-mail {
+    margin-top: 60px;
+}
+.background p.call {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left:  135px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: .3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background p.mail {
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background p i {
+    padding: 0 7px;
+}
+
+
+/* BISD Online বিষয়ে:  */
+.BISD-Online-subjects {
+    margin: 0;
+}
+.BISD-online {
+    margin: 10px 135px;
+    padding: 20px;
+    color: #333;
+    font-size: 17px;
+    letter-spacing: .2px;
+    line-height: 27px;
+}
+
+.BISD-online h1 {
+    padding: 20px 5px ;
+    margin: 20px 0 ;
+    display: block;
+    color: #363535;
+}
+
+.BISD-online p#brac {
+    padding: 5px 5px 20px 5px;
+}
+.BISD-online #bd-education {
+    padding: 5px;
+}
+     
+.BISD-online #help-us {
+    color: #fd9e04;
+}
+
+.BISD-online #career {
+    color: rgb(36, 36, 36);
+    font-weight: bolder;
+}
+
+
+/* total-projects */
+
+.total-projects {
+    margin: 0;
+}
+.all-subjects {
+    margin: 10px 135px;
+    padding: 20px;
+}
+
+.heading h1 {
+    color: #333;
+    padding: 10px 0 30px 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.all-program {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    
+}
+.subjects img {
+    transition: all 0.5s ease;
+    width: 350px;
+    overflow: hidden;
+}
+.subjects img:hover {
+    transform:scale(1.1);
+    transition: 0.5s;
+
+}
+.subjects span {
+    color: #5e5e5e;
+    padding: 20px 0;
+    display: inline-block;
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.subjects span:hover {
+    color: #fd9e04;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.prices h3 {
+    color: #5e5e5e;
+    font-weight: 400;
+
+}
+.prices p {
+    color: #5e5e5e;
+    font-weight: 400;
+
+}
+
+
+/* footer-section */
+
+.footer{
+    margin: 0;
+    background: #E1E1E1;
+}
+
+.footer-section {
+    margin: 10px 135px;
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: auto auto 33%;
+    
+}
+
+.footer-logo {
+    padding: 80px 20px;
+}
+
+.quick-link {
+    padding: 60px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quick-link h1 {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+.quick-link ul {
+    margin-top: 20px;
+}
+.quick-link ul li {
+    margin: 7px;
+}
+
+.quick-link ul li a {
+    color: rgb(92, 91, 91);
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.quick-link ul li a:hover {
+    color: #fbb545;
+    transition: 0.4s;
+    display: block;
+    margin-left: 10px;
+}
+
+.partner-link {
+    padding: 100px 10px;
+    margin-top: 53px;
+    margin-bottom: 40px;
+}
+
+.partner-link ul {
+    margin-top: 20px;
+}
+.partner-link ul li {
+    margin: 7px;
+    width: 100%;
+}
+
+.partner-link ul li a {
+    color: rgb(92, 91, 91);
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.partner-link ul li a:hover {
+    color: #fbb545;
+    transition: 0.4s;
+    display: block;
+    margin-left: 10px;
+}
+hr {
+    background-color: #fcfcfc;
+    height: 1px;
+    border: none;
+}
+.footer span {
+    margin: 10px 135px;
+    display: block;
+    padding: 20px 0;
+    color: #363535;
+    text-align: center;
+}
+
+
+/* recponsive */
+
+@media (max-width: 1048px){
+    label #BISD-logo {
+        padding-left: 60px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+    nav ul li a{
+        font-size: 17px;
+    }
+
+    .background {
+        height: 38vh;
+    }
+
+    
+    .background h1 {
+        
+        margin:0;
+        padding: 20px;
+        font-weight: bold;
+    }
+
+    .background span {
+        color: #fff;
+        font-size: 16px;
+        display: block;
+        margin: 0;
+        padding: 0 20px;
+        font-weight: 500;
+    }
+    .call-mail {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .background p.call {
+        margin-left: 10px;
+        font-size: 16px; 
+    }
+
+    .all-program {
+        display: unset;
+    }
+
+    .heading h1 {
+        display: inline-block;
+        width: 200px;
+        font-size: 30px;
+    }
+    .all-subjects {
+        margin: 0;
+    }
+
+    .subjects {
+        width: 100%px;
+        margin: 10px;
+        padding: 10px;
+        /* border: 1px solid red; */
+    }
+    .subjects img {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .subjects a span { 
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .footer-section {
+        display: unset;
+        margin: 0;
+    }
+    .footer-logo {
+        margin:0 0 0 100px;
+        display: block;
+        padding: 0;
+        
+    }
+
+    
+
+    .footer-logo img {
+        height: 100px;
+        margin: 0;
+        
+    }
+
+    .quick-link {
+        margin:0 0 0 100px;
+        text-align: left;
+        height: 70px;
+        
+    }
+
+   
+
+    .partner-link {
+        margin:0 0 0 100px;
+        padding: 0;
+        text-align: left;
+        height: 70px;
+    }
+
+    
+
+    #copyright {
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 909px){
+    nav #icon {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background: #222222 ;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+    nav li {
+        display: block;
+        width: 100%;
+        margin: 10px 20px;
+        line-height: 25px;
+        border-bottom: 1px solid rgb(201, 199, 199);
+    }
+    nav ul li a {
+        font-size: 25px;
+        color: white;
+    }
+
+    nav ul.show{
+        left: 0;
+    }
+    .background img {
+        position: unset;
+    }
+    .background {
+        height: 30vh;
+    }
+
+    
+    .background h1 {
+        font-size: 35px;
+        margin:0;
+        padding: 5px 20px;
+        font-weight: bold;
+    }
+
+    .background span {
+        color: #fff;
+        font-size: 14.5px;
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 0 20px;
+        font-weight: 500;
+        
+    }
+    .call-mail {
+        margin: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .background p.call {
+        margin: 7px 0 0 10px;
+        font-size: 14px;
+        
+    }
+
+    .BISD-online {
+        margin: 20px;
+    }
+
+    .all-program {
+        display: unset;
+    }
+    .heading h1 {
+        display: inline-block;
+        width: 200px;
+        font-size: 30px;
+    }
+    .all-subjects {
+        margin: 0;
+    }
+
+    .subjects {
+        width: 100%px;
+        margin: 10px;
+        padding: 10px;
+        /* border: 1px solid red; */
+    }
+    .subjects img {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .subjects a span { 
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .footer-section {
+        display: unset;
+        margin: 0;
+    }
+    .footer-logo {
+        margin:0 0 0 100px;
+        display: block;
+        padding: 0;
+        
+    }
+
+    
+
+    .footer-logo img {
+        height: 100px;
+        margin: 20px 20px 0 20px;
+        
+    }
+
+    .quick-link {
+        margin:0 0 0 100px;
+        text-align: left;
+        height: 70px;
+        
+    }
+
+   
+
+    .partner-link {
+        margin:0 0 0 100px;
+        padding: 0;
+        text-align: left;
+        height: 70px;
+    }
+
+    
+
+    #copyright {
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+}
